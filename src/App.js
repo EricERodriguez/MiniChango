@@ -98,16 +98,16 @@ const App = () => {
 		setTotalItemTotal(totalItemTotal);
 	};
 
-	
+
 
 
 	return (
-    
+
 		<div className='app-background'>
     <Navbar expand="lg" variant="light" bg="light">
-    <Navbar.Brand > 
-      
-      <div className='total'>Cantidad de items en carrito: {totalItemCount}</div>
+    <Navbar.Brand >
+
+	<div className='total'>Cantidad de items en carrito: {totalItemCount}</div>
 				<div><h4>Items disponible para su selección: {items.length} </h4></div>
 				<div><h1><AddShoppingCartIcon/>Precio total ${totalItemTotal} </h1></div></Navbar.Brand>
   </Navbar>
